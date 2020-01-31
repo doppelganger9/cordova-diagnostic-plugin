@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova.plugins.diagnostic"
-    version="3.7.3">
+    version="3.7.4">
 
     <name>Diagnostic</name>
     <description>Cordova/Phonegap plugin to check the state of Location/WiFi/Camera/Bluetooth device settings.</description>
@@ -47,10 +47,6 @@
             <string>This app requires photo library access to function properly.</string>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
-            <string>This app requires bluetooth access to function properly.</string>
-        </config-file>
-
         <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
             <string>This app requires microphone access to function properly.</string>
         </config-file>
@@ -79,7 +75,6 @@
         <source-file src="src/ios/Diagnostic.m" />
 
         <framework src="CoreLocation.framework" />
-        <framework src="CoreBluetooth.framework" />
         <framework src="CoreMotion.framework" />
         <framework src="AVFoundation.framework" />
         <framework src="Photos.framework" />
