@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova.plugins.diagnostic"
+    id="cordova-plugin-diagnostic"
     version="3.7.4">
 
     <name>Diagnostic</name>
@@ -12,8 +12,8 @@
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
-    <repo>https://github.com/dpa99c/cordova-diagnostic-plugin.git</repo>
-    <issue>https://github.com/dpa99c/cordova-diagnostic-plugin/issues</issue>
+    <repo>https://github.com/doppelganger9/cordova-plugin-diagnostic.git</repo>
+    <issue>https://github.com/doppelganger9/cordova-plugin-diagnostic/issues</issue>
 
     <!-- ios -->
     <platform name="ios">
